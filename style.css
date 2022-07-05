@@ -2,7 +2,6 @@ html {
     background: url(https://cdn.discordapp.com/attachments/993463957710962780/993900545146368010/pro_back.png);
     font-family: cursive;
 }
-body { position: absolute; }
 
 .intro {
     display: inline-block;

@@ -1,0 +1,76 @@
+html {
+    background: url(https://cdn.discordapp.com/attachments/993463957710962780/993900545146368010/pro_back.png);
+    font-family: cursive;
+}
+
+.intro {
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+
+}
+
+img {
+    width: 48px;
+}
+
+.initiate {
+    font-size: 110px;
+}
+
+.name {
+    font-size: 45px;
+}
+.exact {
+    font-size: 80px;
+}
+
+.info {
+    font-size: 25px;
+}
+
+.links {
+    font-size: 35px;
+    display: flex;
+    margin-left: 20%;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.ln {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    border: 3px solid black;
+    height: 55px;
+    font-weight: bold;
+}
+
+.gt {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 55px;
+    border: 3px solid black;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.project {
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 55px;
+    border: 3px solid black;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 40px;
+}

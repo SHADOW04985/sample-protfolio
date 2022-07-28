@@ -1,42 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class = "intro">
-        <div class = "initiate">
-            HELLO!!
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="transparent" style="font-size: 3em; height: 100vh">
+            <div id="name">
+                Hello, my name is <strong>Aaryaman Maity.</strong><br />
+            </div>
+            <div id="dev">I'm a Software Developer.</div>
+            <a href="#1"><button id="knowMore">Know More</button></a>
         </div>
-        <div class = "name">
-            MY NAME IS <br>
-            <span class = "exact"> AARYAMAN MAITY</span>
+        <div class="red" id="1">
+            <div class="title">About Me</div>
+            <div class="row">
+                <img id="profile" src="assets/profile.jpg" alt="" />
+                <div class="col" id="aboutme">
+                    I am an Undergad pursuing Computer Science Engineering 
+                    in Amity University Kolkata. Coding is what I love and 
+                    try to learn new stuff all the time. I am well versed 
+                    with:<strong>C</strong>,
+                    <strong>C++</strong>, <strong>Python</strong>,
+                    <strong>HTML</strong>, <strong>CSS</strong>,
+                    <strong>JavaScript</strong>, <strong>React js</strong>,
+                    <strong>Node js</strong>, <strong>JMongoDB</strong>. 
+                    <ul style="padding-top: 20px">
+                        <li>Name: Aaryaman Maity</li>
+                        <li>Age: 22</li>
+                        <li>Hobbies: Coding & Gaming</li>
+                    </ul>
+                    <div class="row">
+                        <a href="assets/Resume.pdf" target="_blank"><button>My Resume</button></a>
+                        <a href="#2"><button>My Projects</button></a>
+                        <a href="#3"><button>Contact Me</button></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class = "info">
-            I am an Undergad pursuing Computer Science Engineering in Amity University Kolkata. Coding is what I love and try to learn new stuff all the time. I am well versed with:
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVASCRIPT</li>
-                <li>PYTHON</li>
-                <li>C++</li>
-            </ul>
+        <div class="white" id="2">
+            <div class="title">Projects</div>
+            <div class="col">
+                <div class="row">
+                    <div class="col" style="padding: 0 5vw">
+                        <h1 style="padding-bottom: 20px">
+                            SuperWars!
+                        </h1>
+                        <p style="font-size: 2em">
+                            A simple fight between Superheros on the left 
+                            & Supervillian on the right</p>
+                        <div class="row whitebuttons">
+                            <a href="https://shadow04985.github.io/project-11-superwars-css/" target="_blank"><button>See Live</button></a>
+                            <a href="https://github.com/SHADOW04985/project-11-superwars-css" target="_blank"><button>Source Code</button></a>
+                        </div>
+                    </div>
+                    <img id="superwars"
+                        src="assets/superwars.png"
+                        alt=""
+                        style="margin: 0 5vw 5vw 0"
+                    />
+                </div>
+                <div class="row">
+                    <img
+                        src="assets/weather.png"
+                        alt=""
+                        style="margin: 0 0 5vw 5vw"
+                    />
+                    <div class="col" style="padding: 0 5vw">
+                        <h1 style="padding-bottom: 20px">
+                            Weather Forecast
+                        </h1>
+                        <p style="font-size: 2em">
+                            Type the name of your city and it shows the current weather of that city.
+                        </p>
+                        <div class="row whitebuttons">
+                            <a href="https://shadow04985.github.io/weather-forecast/" target="_blank"><button>See Live</button></a>
+                            <a href="https://github.com/SHADOW04985/weather-forecast" target="_blank"><button>Source Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="padding: 0 5vw">
+                        <h1 style="padding-bottom: 20px">
+                            Protrips
+                        </h1>
+                        <p style="font-size: 2em">
+                            Schedules and keeps track of the next trip that you want to make
+                        </p>
+                        <div class="row whitebuttons">
+                            <a href="https://aaryaman-react-protrips.herokuapp.com/" target="_blank"><button>See Live</button></a>
+                            <a href="https://github.com/SHADOW04985/react-protrips" target="_blank"><button>Source Code</button></a>
+                        </div>
+                    </div>
+                    <img
+                        src="assets/protrips.png"
+                        alt=""
+                        style="margin: 0 5vw 5vw 0"
+                    />
+                </div>
+            </div>
         </div>
-        <div class = "links">
-            <div class = "ln"><img  src="https://cdn.discordapp.com/attachments/993463957710962780/993906979380678696/linked.png" alt="LinkedIn"> <a href="https://www.linkedin.com/in/aaryaman-maity-1966661b2/">LINKEDIN</a></div>
-            <div class = "gt"><img class src="https://cdn.discordapp.com/attachments/993463957710962780/993907479459147796/github.png" alt="Github"> <a href="https://github.com/SHADOW04985">GITHUB</a></div>
+        <div
+            class="transparent"
+            style="align-items: center; padding-bottom: 5vh"
+            id="3"
+        >
+            <div class="title">Contact Me</div>
+            <div class="row" style="font-size: 2em">
+                <ul>
+                    <li>
+                        Email:
+                        <a id="links" href="mailto:aaryamanmaity@gmail.com"
+                            >aaryamanmaity@gmail.com</a
+                        >
+                    </li>
+                    <li>
+                        Phone No: <a id="links" href="tel:+917903911403">+917903911403</a>
+                    </li>
+                    <li>
+                        Address:
+                        <a id="links" href="https://g.page/Amity-Kolkata?share"
+                            target="_blank"
+                            >Major Arterial road, Action Area 2, Kolkata</a
+                        >
+                    </li>
+                </ul>
+                <div class="col" id="links" style="padding-left: 5vw">
+                    <a href="https://github.com/SHADOW04985"
+                        ><img src="assets/github.svg" alt="" class="icon"
+                    /></a>
+                    <a  href="https://www.linkedin.com/in/aaryaman-maity-1966661b2/" id="links"
+                        ><img src="assets/linkedin.svg" alt="" class="icon"
+                    /></a>
+                </div>
+            </div>
+            <a href="" id="links" style="padding-top: 20px; font-size: 2em">Go to top</a>
         </div>
-        <a class="project" href="https://github.com/SHADOW04985">MY PROJECTS</a>
-        <div class = "contact">
-            CONTACT ME AT: <br>
-            <img src="https://cdn.discordapp.com/attachments/993463957710962780/993928853414219807/unknown.png" alt="mail"><a href = "mailto: aaryamanmaity@gmail.com">EMAIL</a>
-            <img src="https://cdn.discordapp.com/attachments/993463957710962780/993934651330674688/unknown.png" alt="tel"><a href = "tel: aaryamanmaity@gmail.com">PHONE</a>
-        </div>
-    </div>
-</body>
+    </body>
 </html>

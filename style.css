@@ -1,79 +1,176 @@
-html {
-    background: url(https://cdn.discordapp.com/attachments/993463957710962780/993900545146368010/pro_back.png);
-    font-family: cursive;
-    overflow-y: scroll;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-.intro {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 900px;
-    height: 500px;
-    margin-left: 21%;
-    text-align: center;
+body {
+    background: linear-gradient(135deg, rgb(246, 37, 37), rgb(178, 42, 247))
+}
 
+body {
+    padding: 0 10%;
+    /* background-color: rgb(29, 29, 29); */
+}
+
+.transparent {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    font-size: 18px;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#knowMore {
+    font-size: 0.6em;
+}
+
+#knowMore:hover {
+    background-color: white;
+    color: rgb(204, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#name, #dev {
+    color: black;
+}
+#name > strong {
+    color: rgb(255, 255, 255);
+}
+
+#name {
+    display: block;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    height: 90vh;
+    background-color: rgb(156, 55, 55);
+    margin: 5vh 0;
+    border-radius: 20px;
+}
+
+.white {
+    background-color: rgb(233, 227, 227);
+    margin: 5vh 0;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5vh 0;
+}
+
+.red {
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+#superwars {
+    width: 500px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile {
+    border-radius: 50%;
+    /* padding: 0 5vw 0 0;
+    margin: 0 0 0 5vw; */
+    margin-right: 5%;
+    margin-left: 1% ;
+}
+
+#aboutme {
+    font-size: 2em;
+    display: block;
+    margin: 0 5vw 0 0;
+}
+
+strong {
+    color: rgb(255, 153, 0);
+    font-weight: bold;
+}
+
+#aboutme > .row {
+    padding: 0;
+}
+
+#aboutme > .row > a > button {
+    margin: 30px 10px 0 0;
+}
+
+#aboutme > .row > a> button:hover {
+    background-color: white;
+    color: rgb(31, 204, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.white > .title {
+    color: rgb(204, 0, 0);
+}
+
+h1 {
+    color: rgb(156, 55, 55);
 }
 
 img {
-    width: 48px;
-}
-
-.initiate {
-    font-size: 110px;
-}
-
-.name {
-    font-size: 35px;
-}
-.exact {
-    font-size: 80px;
-}
-
-.info {
-    font-size: 35px;
-}
-
-.links {
-    font-size: 35px;
-    display: flex;
-    margin-left: 20%;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.ln {
-    background-color: white;
     border-radius: 10px;
-    width: 250px;
-    border: 3px solid black;
-    height: 55px;
-    font-weight: bold;
+    height: 50vh;
 }
 
-.gt {
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
-    height: 55px;
-    border: 3px solid black;
-    margin-left: 5px;
-    font-weight: bold;
+.whitebuttons > a > button {
+    margin-right: 10px;
+    border-color: rgb(204, 0, 0);
+    color: rgb(204, 0, 0);
 }
 
-.project {
-    background-color: white;
-    border-radius: 10px;
-    width: 250px;
-    height: 55px;
-    border: 3px solid black;
-    margin-left: 5px;
-    font-weight: bold;
-    font-size: 40px;
+.whitebuttons > a > button:hover {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    cursor: pointer;
 }
 
-.contact {
-    font-size: 65px;
-    margin-top: 55px;
+a {
+    color: rgb(204, 0, 0);
+}
+
+a:visited  {
+    color: rgb(156, 55, 55);;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+#links {
+    color: rgb(141, 218, 141);
+    
 }
